@@ -18,8 +18,7 @@ export class ProductsComponent implements OnInit {
   ngOnInit(): void {
     this.product.getProducts().subscribe((data: any[]) => {
        
-      this.products = (data as any).products;   //converting object into array of products
-      
+      this.products = (data as any).products;  
     });
   }
 }
