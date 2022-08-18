@@ -1,37 +1,31 @@
-  .navbar-head{
-    justify-content: center;
-    color: #000;
-    padding-left: 10rem;
-  }
-  
-  body {
-    font-family:sans-serif;
-    color: black;
-  }
-  span {
-    padding-left: 1rem;
-  }
-  .nav-s{
-    justify-content: center;
-    padding-top: 2rem;
-    
-    padding-right: 10rem;
-  }
-  
-  
-  .navbar-text a.active {
-    color:rgb(143, 24, 24);
-  }
-  
-  
-  .gap {
-    flex: 1 1 auto;
-  }
-    
   .navbar {
+    padding-right: 2rem;
     justify-content: space-between;
-    
-    
     }
   
-  
+    p {
+      font-family: sans-serif;
+    }
+    body {
+      font-family: sans-serif;
+      color: rgb(52, 65, 67);
+    }
+    
+    
+    
+    .navbar-text a.active {
+      color:rgb(16, 16, 19);
+    }
+    
+    
+    .gap {
+      flex: 1 1 auto;
+    }
+    .navbar {
+      justify-content: space-between;
+      padding: 1rem;
+      
+    }
+    span {
+      padding-left: 2rem;
+    }
