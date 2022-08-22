@@ -1,7 +1,7 @@
 <div class="prod-form" *ngIf="productForm">
     <form
       [formGroup]="productForm"
-      (ngSubmit)="onSubmit(productForm.value, productForm.isValid)"
+      (ngSubmit)="onSubmit(productForm.value, productForm.valid)"
       novalidate
     >
       <div class="grid">
@@ -109,7 +109,7 @@
       </div>
       <div class="f-center">
         <button
-          [disabled]="productForm.isValid"
+          [disabled]="productForm.invalid"
           class="btn btn-primary"
           type="submit"
         >
