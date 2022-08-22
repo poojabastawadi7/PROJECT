@@ -13,7 +13,7 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./product-form.component.css'],
 })
 export class ProductFormComponent implements OnInit {
- // productForm: any;
+ 
   id: number | string = '';
   productForm: FormGroup;
   maxValue: number = 10;
@@ -27,7 +27,7 @@ export class ProductFormComponent implements OnInit {
   private commonService: CommonService,
   private apiService: ApiService
   
-   // private commonService: CommonService
+  
   ) {}
 
   ngOnInit(): void {
