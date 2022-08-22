@@ -17,12 +17,15 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { HeaderComponent } from './header/header.component';
 import { ProductsComponent } from './products/products.component';
+import { SharedModule } from './shared/shared.module';
+
  
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ProductsComponent,
+    
     
   ],
   imports: [
@@ -39,6 +42,7 @@ import { ProductsComponent } from './products/products.component';
     MatIconModule,
     FormsModule,
     HttpClientModule,
+    SharedModule,
     
   ],
   providers: [],
