@@ -21,4 +21,9 @@ export class ProductsComponent implements OnInit {
       this.products = (data as any).products;  
     });
   }
+   goToProduct(event: any, product: any ): void {
+      this.router.navigate(['/product-details', product.id])
+    
+  
+  }
 }
