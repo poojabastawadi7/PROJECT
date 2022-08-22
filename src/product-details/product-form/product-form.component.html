@@ -1,8 +1,9 @@
 <div class="prod-form" *ngIf="productForm">
     <form
+       novalidate
       [formGroup]="productForm"
       (ngSubmit)="onSubmit(productForm.value, productForm.isValid)"
-      novalidate
+      
     >
       <div class="grid">
         <div class="col-12 md:col-6 lg:col-3 sm:flex-nowrap">
@@ -109,7 +110,7 @@
       </div>
       <div class="f-center">
         <button
-          [disabled]="productForm.isValid"
+          [disabled]="productForm.inValid"
           class="btn btn-primary"
           type="submit"
         >
