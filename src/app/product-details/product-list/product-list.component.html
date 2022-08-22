@@ -1,0 +1,54 @@
+<div *ngIf='product'>
+
+    <div class="product-center">
+      <div class="row">
+        <div class="column">
+      
+    <div class="product-heading">
+    <h1>{{product.title}}</h1>
+    </div>
+    <div class="product-images">
+      <img [src]="product.images[0]">
+    </div>
+  </div>
+ 
+    <div class="column">
+          <div class="product-labels">
+    <div class="product-label">
+      <label><b>Price:</b></label>
+      <span>${{product.price}}</span>
+    </div>
+    
+    <div class="product-label">
+      <label><b>Discount:</b></label>
+      <span>{{product.discountPercentage}}%</span>
+    </div>
+    
+    
+    <div class="product-label">
+      <label><b>Category:</b></label>
+      <span>{{product.category}}</span>
+    </div>
+    
+    <div class="product-label">
+      <label><b>Description:</b></label>
+      <span>{{product.description}}</span>
+    </div>
+    
+    <div class="product-label">
+      <label><b>Stock:</b></label>
+      <span>{{product.stock}}</span>
+    </div>
+    
+    <div class="product-label">
+      <label><b>Brand:</b></label>
+      <span>{{product.brand}}</span>
+    </div>
+    
+    <div class="product-label">
+      <label ><b>Rating:</b></label>
+      <span>{{product.rating}}</span>
+    </div></div></div>
+  </div>
+    </div>
+    </div>
