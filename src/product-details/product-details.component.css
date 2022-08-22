@@ -1,0 +1,8 @@
+.left-column{
+    display: flex;
+    width:50%;
+}
+
+.right-column{
+    flex: 50%;
+}

@@ -1,0 +1,104 @@
+/*:host{
+    .product-center{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    //justify-content:center;
+    flex-flow:wrap;
+    
+    .product-images,.product-heading{
+      text-align:left;
+      align-items: left;
+      width:100%;
+      height: 50%;
+      
+    }
+    .product-heading{
+      color: crimson;
+      padding-left: 35%;
+    }
+
+    .row{
+      
+      width:80%;
+  }
+  
+  .column{
+    float: left;
+   width: 50%;
+  }
+    button{background-color: rgb(18, 7, 82);
+    //border:none;
+    font-size:25px;
+    font-weight: 200;
+    color:white;
+    }
+    
+    button:hover{
+      background-color: black;
+      color:white;
+    }
+    
+    
+    span{
+      color: rgb(198, 28, 237);
+    }
+    
+    .product-labels{
+      align-items: right;
+      //float: left;
+      //display:inline;
+      justify-content:right;
+      padding-top:20%;
+      //flex:2;
+    .product-label{
+      padding-left:10px;
+      padding-right:15px;
+      line-height: 2rem;
+      label{
+        color: rgb(5, 5, 64);
+        font-weight:900;
+        padding-right:10px;
+        font-family: sans-serif;
+      }
+    }
+    }
+    }
+   
+    
+    
+    @media(max-width:992px){
+      .product-center{
+        .product-labels{
+          flex-wrap:wrap;
+          .product-label{
+            width:50%;
+          }
+        }
+      }
+    }
+    }
+   */ 
+    .f-center{
+      display: flex;
+      justify-content: center;
+    }
+    .example-form {
+        min-width: 150px;
+        max-width: 500px;
+        width: 100%;
+      }
+      .example-full-width{
+        width:100%;
+      }
+      button{background-color: rgb(18, 7, 82);
+        
+        font-size:20px;
+        font-weight: 150;
+        color:rgb(161, 67, 67);
+        }
+        
+        button:hover{
+          background-color: black;
+          color:rgb(93, 163, 167);
+        }
+    
